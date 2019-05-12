@@ -9,6 +9,6 @@ public class Spring5MvcPetClinicApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(Spring5MvcPetClinicApplication.class, args);
 	}
-	
+
 
 }
