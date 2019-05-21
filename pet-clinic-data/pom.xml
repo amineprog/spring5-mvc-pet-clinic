@@ -4,15 +4,16 @@
   <parent>
     <groupId>com.smartylab</groupId>
     <artifactId>spring5-mvc-pet-clinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
   </parent>
   <groupId>com.smartylab</groupId>
   <artifactId>pet-clinic-data</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>pet-clinic-data</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		  <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
   </properties>
   <dependencies>
   		<dependency>
